@@ -1,17 +1,17 @@
 {
   "main": {
-    "name":"David Cyberlark",
-    "description":"Passionate about learning technology and sharing knowledge",
-    "image":"profile.jpg",
-    "bio":"My name is David, the founder of Cyberlark, a solutions architect and senior software developer that has interests in all things related to the Cloud. I graduated from the University of Wollongong with a Master of Computer Science degree in 2009. Since then, I live in a beautiful city called Brisbane on the East Coast of Australia. ",
+    "name":"Steve Li",
+    "description":"Passionate about learning technology in IT industry",
+    "image":"profile.png",
+    "bio":"My name is Steve, I graduated from my IT master degree in 2023, and I am looking for opportunities to start my career in IT industry.",
     "contactmessage":"Thank you for your feedback.",
-    "email": "Dave@cyberlark.com.au",
-    "phone": "(04) 1234 5678",
-    "github":"https://github.com/CyberlarkCode",
-    "project":"https://github.com/CyberlarkCode",
+    "email": "weichengli.steve@gmail.com",
+    "phone": "0450166673",
+    "github":"https://github.com/SteveLi89757",
+    "project":"https://github.com/SteveLi89757",
     "address":{
-      "line1":"Address: 13 Main St",
-      "line2":"City: Brisbane",
+      "line1":"Suburb: Belconnen",
+      "line2":"City: Canberra",
       "line3":"Country: Australia"
     },
     "youtube":{
@@ -58,42 +58,44 @@
     "skillmessage":"Technical Skills",
     "education":[
       {
-        "school":"University of Wollongong",
-        "degree":"Master of Computer Science with distinction",
-        "graduated":"2007 - 2009",
+        "school":"University of Canberra",
+        "degree":"Master of Information Technology and System (Major: Cloud Computing)",
+        "graduated":"2019 - 2022",
         "description":""
       },
       {
-        "school":"AWS certification",
-        "degree":"AWS Certified Solutions Architect - Professional",
-        "graduated":"Dec 2021",
+        "school":"University of Wollongong",
+        "degree":"Master of Professional Accounting and Master of Commerce",
+        "graduated":"2014 - 2015",
+        "description":""
+      },
+      {
+        "school":"Codecademy",
+        "degree":"Git & GitHub, HTML Course, CSS Course, C# Course",
+        "graduated":"2023",
         "description":""
       }
     ],
     "work":[
       {
-        "company":"Cyberlark Studio",
-        "title":"Founder",
-        "years":"Augest 2005 - Present",
-        "description":"Our website was founded in August 2005, originally named D&M Studio. "
+        "company":"Coffee On the Go",
+        "title":"Cafe manage（Owner)",
+        "years":"2022",
+        "description":""
       }
     ],
     "skills":[
       {
-        "name":"Backend Development (Infrastructure, API, Database)",
-        "level":"95%"
+        "name":"HTML & CSS",
+        "level":"70%"
       },
       {
-        "name":"Frontend Development (React, Angular)",
-        "level":"85%"
+        "name":"Web development",
+        "level":"50%"
       },
       {
-        "name":"Embeded Software development (C/C++)",
-        "level":"80%"
-      },
-      {
-        "name":"Leadership & Management",
-        "level":"75%"
+        "name":"ASP.NET (C#)",
+        "level":"30%"
       },
       {
         "name":"Passion & Eager to learn",
