@@ -1,0 +1,108 @@
+{
+  "main": {
+    "name":"Steve Li",
+    "description":"Passionate about learning technology in IT industry",
+    "image":"profile.png",
+    "bio":"My name is Steve, I graduated from my IT master degree in 2023, and I am looking for opportunities to start my career in IT industry.",
+    "contactmessage":"Thank you for your feedback.",
+    "email": "weichengli.steve@gmail.com",
+    "phone": "0450166673",
+    "github":"https://github.com/SteveLi89757",
+    "project":"https://github.com/SteveLi89757",
+    "address":{
+      "line1":"Suburb: Belconnen",
+      "line2":"City: Canberra",
+      "line3":"Country: Australia"
+    },
+    "youtube":{
+      "english": {
+        "name": "David on Cloud",
+        "url": "https://www.youtube.com/channel/UCykMC_fzatQPcbun0VYG3YA"
+      },
+      "chinese": {
+        "name": "澳洲程序员大卫",
+        "url":"https://www.youtube.com/@aus-david"
+      }
+    },
+    "website": "",
+    "resumedownload":"./images/resume.pdf",
+    "social":[
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/home?lang=en",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/SteveLi89757",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"youtube-chinese",
+        "url":"https://www.youtube.com/",
+        "className":"fa fa-youtube-square"
+      },
+      {
+        "name":"linkedin",
+        "url":"www.linkedin.com/in/weicheng-li-00184a26a",
+        "className":"fa fa-linkedin-square"
+      },
+      {
+        "name":"weibo",
+        "url":"https://m.weibo.cn/",
+        "className":"fa fa-weibo"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Technical Skills",
+    "education":[
+      {
+        "school":"University of Canberra",
+        "degree":"Master of Information Technology and System (Major: Cloud Computing)",
+        "graduated":"2019 - 2022",
+        "description":""
+      },
+      {
+        "school":"University of Wollongong",
+        "degree":"Master of Professional Accounting and Master of Commerce",
+        "graduated":"2014 - 2015",
+        "description":""
+      },
+      {
+        "school":"Codecademy",
+        "degree":"Git & GitHub, HTML Course, CSS Course, C# Course",
+        "graduated":"2023",
+        "description":""
+      }
+    ],
+    "work":[
+      {
+        "company":"Coffee On the Go",
+        "title":"Cafe manage(Owner)",
+        "years":"2022",
+        "description":""
+      }
+    ],
+    "skills":[
+      {
+        "name":"HTML & CSS",
+        "level":"70%"
+      },
+      {
+        "name":"Web development",
+        "level":"50%"
+      },
+      {
+        "name":"ASP.NET (C#)",
+        "level":"30%"
+      },
+      {
+        "name":"Passion & Eager to learn",
+        "level":"100%"
+      }
+    ]
+  }
+ 
+  }
+
