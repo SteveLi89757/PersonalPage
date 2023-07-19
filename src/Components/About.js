@@ -33,7 +33,7 @@ class About extends Component {
                   <p className="address">
                     <span>
                       {name}<br />
-                      Mobile: {phone}<br />
+                      
                       Email: {email}<br />
                       {this.props.data.address.line1}<br />
                       {this.props.data.address.line2}<br />

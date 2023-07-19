@@ -41,7 +41,7 @@ class Header extends Component {
                 Resume
               </a>
             </li>
-
+{/* 
             <li>
               <a className="smoothscroll" href="#portfolio">
                 Works
@@ -57,7 +57,7 @@ class Header extends Component {
               <a href="http://daigou.cyberlark.com.au/" target="_blank" rel="noreferrer">
                 Shop
               </a>
-            </li>
+            </li> */}
           </ul>
         </nav>
 
