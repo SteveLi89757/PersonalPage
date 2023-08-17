@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
+import { withTranslation } from 'react-i18next';
+
+
 
 class About extends Component {
   render() {
@@ -11,6 +14,11 @@ class About extends Component {
     
     const email = this.props.data.email;
     const resumeDownload = this.props.data.resumedownload;
+
+    const { t } = this.props; // 获取翻译函数
+
+
+    
 
     return (
       <section id="about">
@@ -24,27 +32,27 @@ class About extends Component {
               />
             </div>
             <div className="nine columns main-col">
-              <h2>About Me</h2>
+              <h2>{t('about me')}</h2>
 
-              <p>{bio}</p>
+              <p>{t('bio')}</p>
               <div className="row">
                 <div className="columns contact-details">
-                  <h2>Contact Details</h2>
+                  <h2>{t('contact details')}</h2>
                   <p className="address">
                     <span>
-                      {name}<br />
+                      {t('name')}<br />
                       
-                      Email: {email}<br />
-                      {this.props.data.address.line1}<br />
-                      {this.props.data.address.line2}<br />
-                      {this.props.data.address.line3}<br />
+                      {t('email')}: {email}<br />
+                      {t('line1')}<br />
+                      {t('line2')}<br />
+                      {t('line3')}<br />
                     </span>
                   </p>
                 </div>
                 <div className="columns download">
                   <p>
                     <a href={resumeDownload} className="button">
-                      <i className="fa fa-download"></i>Download Resume
+                      <i className="fa fa-download"></i>{t('download resume')}
                     </a>
                   </p>
                 </div>
@@ -57,4 +65,4 @@ class About extends Component {
   }
 }
 
-export default About;
+export default withTranslation()(About);

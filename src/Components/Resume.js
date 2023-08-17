@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Slide from "react-reveal";
+import { withTranslation } from 'react-i18next';
 
 class Resume extends Component {
   getRandomColor() {
@@ -54,13 +55,15 @@ class Resume extends Component {
       );
     });
 
+    const { t } = this.props;
+
     return (
       <section id="resume">
         <Slide left duration={1300}>
           <div className="row education">
             <div className="three columns header-col">
               <h1>
-                <span>Education & Certificate</span>
+                <span>{t('education&certificate')}</span>
               </h1>
             </div>
 
@@ -76,7 +79,7 @@ class Resume extends Component {
           <div className="row work">
             <div className="three columns header-col">
               <h1>
-                <span>Work</span>
+                <span>{t('work')}</span>
               </h1>
             </div>
 
@@ -88,7 +91,7 @@ class Resume extends Component {
           <div className="row skill">
             <div className="three columns header-col">
               <h1>
-                <span>Skills (Updated everyday)</span>
+                <span>{t('skill')}</span>
               </h1>
             </div>
 
@@ -106,4 +109,4 @@ class Resume extends Component {
   }
 }
 
-export default Resume;
+export default withTranslation()(Resume);

@@ -3,6 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import React, { Component } from "react";
+// import { createRoot } from 'react-dom/client';
+
+// import App from './App';
+
+// append app to dom
+// const root = createRoot(document.getElementById('root'));
+// root.render(
+//   <App />
+// );
 
 ReactDOM.render(
   <App />,

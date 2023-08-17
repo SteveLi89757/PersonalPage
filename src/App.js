@@ -7,6 +7,8 @@ import About from "./Components/About";
 import Resume from "./Components/Resume";
 // import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
+import './i18n';
+import { withTranslation } from "react-i18next";
 
 class App extends Component {
   constructor(props) {
@@ -35,10 +37,17 @@ class App extends Component {
   componentDidMount() {
     this.getResumeData();
   }
+  
+  
+
 
   render() {
+    const { t, i18n } = this.props;
+    
     return (
       <div className="App">
+      <button onClick={() => {console.log("Button clicked"); i18n.changeLanguage("en");}}>English</button>
+      <button onClick={() => i18n.changeLanguage("cn")}>中文</button>
         <Header data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
         <Resume data={this.state.resumeData.resume} />
@@ -50,4 +59,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default withTranslation()(App); 

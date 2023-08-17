@@ -1,0 +1,20 @@
+{
+    "name":"Steve Li",
+    "description":"Passionate about learning technology in IT industry",
+    "home":"HOME", 
+    "about":"ABOUT",
+    "resume":"RESUME",
+
+    "about me":"About Me",
+    "bio":"My name is Steve, I graduated from my IT master degree in 2023, and I am looking for opportunities to start my career in IT industry.",
+    "contact details": "Contact Details",
+    "email":"Email",   
+    "line1":"Suburb: Belconnen",
+    "line2":"City: Canberra",
+    "line3":"Country: Australia",
+    "download resume":"Download Resume",
+
+    "education&certificate":"Education & Certificate",
+    "work":"WORK",
+    "skill":"SKILL"    
+}

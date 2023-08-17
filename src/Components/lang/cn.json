@@ -1,0 +1,20 @@
+{
+    "name":"史蒂夫 李",
+    "description":"热衷于学习IT行业技术",
+    "home":"主页", 
+    "about":"关于",
+    "resume":"简历",
+
+    "about me":"关于我",
+    "bio":"我的名字是史蒂夫, 这个个人网站应该不会有人看，所以这段话是我胡乱翻译的应该不会有人注意。",
+    "contact details": "联系方式",
+    "email":"电子邮箱",
+    "line1":"区: Belconnen",
+    "line2":"城市: Canberra",
+    "line3":"国家: Australia",
+    "download resume":"下载简历",
+
+    "education&certificate":"教育 & 证书",
+    "work":"工作",
+    "skill":"技能"
+}
