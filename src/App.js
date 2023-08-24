@@ -42,7 +42,7 @@ class App extends Component {
 
 
   render() {
-    const { t, i18n } = this.props;
+    const { i18n } = this.props;
     
     return (
       <div className="App">

@@ -8,9 +8,9 @@ class About extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const name = this.props.data.name;
+    // const name = this.props.data.name;
     const profilepic = "images/" + this.props.data.image;
-    const bio = this.props.data.bio;
+    // const bio = this.props.data.bio;
     
     const email = this.props.data.email;
     const resumeDownload = this.props.data.resumedownload;
